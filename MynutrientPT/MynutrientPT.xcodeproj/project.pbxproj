@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50818EDC2C930DFE000C40D1 /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50818EDB2C930DFE000C40D1 /* MyPageView.swift */; };
+		50818EDE2C931559000C40D1 /* DailyCalorieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50818EDD2C931559000C40D1 /* DailyCalorieData.swift */; };
 		CEB765B12C9305A40027B40B /* MynutrientPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */; };
 		CEB765B32C9305A40027B40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB765B22C9305A40027B40B /* ContentView.swift */; };
 		CEB765B52C9305A50027B40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB765B42C9305A50027B40B /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50818EDB2C930DFE000C40D1 /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		50818EDD2C931559000C40D1 /* DailyCalorieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCalorieData.swift; sourceTree = "<group>"; };
 		CEB765AD2C9305A40027B40B /* MynutrientPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MynutrientPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MynutrientPTApp.swift; sourceTree = "<group>"; };
 		CEB765B22C9305A40027B40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */,
 				CEB765B22C9305A40027B40B /* ContentView.swift */,
+				50818EDB2C930DFE000C40D1 /* MyPageView.swift */,
+				50818EDD2C931559000C40D1 /* DailyCalorieData.swift */,
 				CEB765B42C9305A50027B40B /* Assets.xcassets */,
 				CEB765B62C9305A50027B40B /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB765B32C9305A40027B40B /* ContentView.swift in Sources */,
+				50818EDE2C931559000C40D1 /* DailyCalorieData.swift in Sources */,
 				CEB765B12C9305A40027B40B /* MynutrientPTApp.swift in Sources */,
+				50818EDC2C930DFE000C40D1 /* MyPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

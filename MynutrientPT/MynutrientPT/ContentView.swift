@@ -20,7 +20,7 @@ struct ContentView: View {
                     Image(systemName: "2.circle")
                     Text("2")
                 }
-            Text("3")
+            Text("34")
                 .tabItem {
                     Image(systemName: "3.circle")
                     Text("3")
