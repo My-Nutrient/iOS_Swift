@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B42DF9B2C930EDD00DC9ADA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42DF9A2C930EDD00DC9ADA /* HomeView.swift */; };
+		8B42DF9D2C93119D00DC9ADA /* MyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42DF9C2C93119D00DC9ADA /* MyCardView.swift */; };
+		8B42DF9F2C93157900DC9ADA /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42DF9E2C93157900DC9ADA /* protocol.swift */; };
+		8B42DFA12C9317A000DC9ADA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42DFA02C9317A000DC9ADA /* CardView.swift */; };
+		8B42DFA32C9317B100DC9ADA /* TestHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42DFA22C9317B100DC9ADA /* TestHomeView.swift */; };
+		8B42DFA52C931B0500DC9ADA /* MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42DFA42C931B0500DC9ADA /* MyPage.swift */; };
 		CEB765B12C9305A40027B40B /* MynutrientPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */; };
 		CEB765B32C9305A40027B40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB765B22C9305A40027B40B /* ContentView.swift */; };
 		CEB765B52C9305A50027B40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB765B42C9305A50027B40B /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B42DF9A2C930EDD00DC9ADA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8B42DF9C2C93119D00DC9ADA /* MyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardView.swift; sourceTree = "<group>"; };
+		8B42DF9E2C93157900DC9ADA /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
+		8B42DFA02C9317A000DC9ADA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8B42DFA22C9317B100DC9ADA /* TestHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomeView.swift; sourceTree = "<group>"; };
+		8B42DFA42C931B0500DC9ADA /* MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPage.swift; sourceTree = "<group>"; };
 		CEB765AD2C9305A40027B40B /* MynutrientPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MynutrientPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MynutrientPTApp.swift; sourceTree = "<group>"; };
 		CEB765B22C9305A40027B40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */,
+				8B42DF9E2C93157900DC9ADA /* protocol.swift */,
 				CEB765B22C9305A40027B40B /* ContentView.swift */,
+				8B42DF9A2C930EDD00DC9ADA /* HomeView.swift */,
+				8B42DF9C2C93119D00DC9ADA /* MyCardView.swift */,
+				8B42DFA02C9317A000DC9ADA /* CardView.swift */,
+				8B42DFA22C9317B100DC9ADA /* TestHomeView.swift */,
+				8B42DFA42C931B0500DC9ADA /* MyPage.swift */,
 				CEB765B42C9305A50027B40B /* Assets.xcassets */,
 				CEB765B62C9305A50027B40B /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B42DF9B2C930EDD00DC9ADA /* HomeView.swift in Sources */,
 				CEB765B32C9305A40027B40B /* ContentView.swift in Sources */,
+				8B42DFA52C931B0500DC9ADA /* MyPage.swift in Sources */,
+				8B42DF9D2C93119D00DC9ADA /* MyCardView.swift in Sources */,
+				8B42DFA32C9317B100DC9ADA /* TestHomeView.swift in Sources */,
+				8B42DFA12C9317A000DC9ADA /* CardView.swift in Sources */,
 				CEB765B12C9305A40027B40B /* MynutrientPTApp.swift in Sources */,
+				8B42DF9F2C93157900DC9ADA /* protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
