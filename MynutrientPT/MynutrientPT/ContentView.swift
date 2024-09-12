@@ -2,8 +2,7 @@
 //  ContentView.swift
 //  MynutrientPT
 //
-//  Created by 박준영 on 9/12/24.
-//
+//  Created by 박준영 on 9/12/24. jisoo
 
 import SwiftUI
 
