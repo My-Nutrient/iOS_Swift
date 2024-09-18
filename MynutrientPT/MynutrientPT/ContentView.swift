@@ -7,13 +7,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var presenter = NVFlipCardPresenter()
+    
     var body: some View {
         TabView {
-            Text("home")
+            MyCardView(presenter: presenter)
                 .tabItem {
                     Image(systemName: "1.circle")
-                    HomeView()
+                    Text("1")
                 }
+            
+//            MyCardView(presenter: presenter)
             Text("2")
                 .tabItem {
                     Image(systemName: "2.circle")
