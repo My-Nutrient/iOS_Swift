@@ -12,15 +12,12 @@ struct MyCardView: View {
 //    @Binding var presenter: NVFlipCardPresenter
     let shape = RoundedRectangle(cornerRadius: 10)
     @State private var progress: Double = 1.0
+    var foodDetail: FoodNutrientStore = FoodNutrientStore()
     
     var body: some View {
         ZStack {
-            if presenter.isFlipped {
-                
-                
+            if presenter.isFlipped != true {
                 // 앞면
-                shape.fill()
-                    .foregroundColor(.white)
                 VStack {
                     // 카드 상단
                     HStack {
@@ -98,26 +95,32 @@ struct MyCardView: View {
             else {
                 // 뒷면
                 ZStack {
-                    shape.fill()
-                        .foregroundColor(.white)
+                    
                     VStack {
                         Text("돼지의 왕의 영양성분표").font(.title).bold()
+                        
+                        // tableView
+                        Table(foodDetail.foods) {
+                            TableColumn("foodName", value: \.foodName)
+                            TableColumn("kcal", value: \.kcal)
+                            //TableColumn("E-Mail Address", value: \.nutrients)
+                        }
+                        .padding()
+                        .font(.subheadline)
                     }
                     .frame(width: 300, height: 500)
                     .background(Color.green)
                     .cornerRadius(10)
                     .shadow(color: .gray, radius: 10)
-                    
-                    
                 }
             }
-            
         }
         .onTapGesture {
                     presenter.flipButtonTapped()
-                }
-                .rotation3DEffect(.degrees(presenter.isFlipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
-                .animation(.default, value: presenter.isFlipped)
+        }
+        .rotation3DEffect(.degrees(presenter.isFlipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
+        .animation(.default, value: presenter.isFlipped)
+        
     }
 }
 

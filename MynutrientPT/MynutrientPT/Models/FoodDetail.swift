@@ -11,7 +11,7 @@ struct FoodDetail: Identifiable {
     var id = UUID()
     
     var foodName: String
-    var kcal: Int
+    var kcal: String
     // 영양 성분 구성
     var nutrients: [Nutrient]
     

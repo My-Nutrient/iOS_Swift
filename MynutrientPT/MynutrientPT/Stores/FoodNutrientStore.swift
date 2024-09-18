@@ -20,12 +20,12 @@ class FoodNutrientStore {
     init() {
 #if DEBUG
         foods = [
-            FoodDetail(foodName: "pizza", kcal: 640, nutrients: [
+            FoodDetail(foodName: "pizza", kcal: "640", nutrients: [
                 Nutrient(nutrientName: "탄수화물", volume: 108, ratio: 50),
                 Nutrient(nutrientName: "단백질", volume: 30, ratio: 15),
                 Nutrient(nutrientName: "지방", volume: 55, ratio: 35)
             ]),
-            FoodDetail(foodName: "Hamburger", kcal: 540, nutrients: [
+            FoodDetail(foodName: "Hamburger", kcal: "540", nutrients: [
                 Nutrient(nutrientName: "탄수화물", volume: 108, ratio: 50),
                 Nutrient(nutrientName: "단백질", volume: 30, ratio: 15),
                 Nutrient(nutrientName: "지방", volume: 55, ratio: 35)
