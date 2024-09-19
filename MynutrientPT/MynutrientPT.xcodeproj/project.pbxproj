@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		4B03D2322C9312AE009B5721 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B03D2312C9312AE009B5721 /* CalendarView.swift */; };
 		4B03D2342C932B3B009B5721 /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B03D2332C932B3B009B5721 /* MealData.swift */; };
+		4BD816792C9BB3EF000B2D2B /* CalendarView_ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD816782C9BB3EF000B2D2B /* CalendarView_ex.swift */; };
+		4BD8167B2C9BB42B000B2D2B /* MonthCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8167A2C9BB42B000B2D2B /* MonthCalendarView.swift */; };
+		4BD8167D2C9BB450000B2D2B /* NutritionGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8167C2C9BB450000B2D2B /* NutritionGraphView.swift */; };
+		4BD8167F2C9BB466000B2D2B /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8167E2C9BB466000B2D2B /* NotificationsView.swift */; };
 		CEB765B12C9305A40027B40B /* MynutrientPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */; };
 		CEB765B32C9305A40027B40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB765B22C9305A40027B40B /* ContentView.swift */; };
 		CEB765B52C9305A50027B40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB765B42C9305A50027B40B /* Assets.xcassets */; };
@@ -18,6 +22,10 @@
 /* Begin PBXFileReference section */
 		4B03D2312C9312AE009B5721 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		4B03D2332C932B3B009B5721 /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+		4BD816782C9BB3EF000B2D2B /* CalendarView_ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView_ex.swift; sourceTree = "<group>"; };
+		4BD8167A2C9BB42B000B2D2B /* MonthCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCalendarView.swift; sourceTree = "<group>"; };
+		4BD8167C2C9BB450000B2D2B /* NutritionGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionGraphView.swift; sourceTree = "<group>"; };
+		4BD8167E2C9BB466000B2D2B /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		CEB765AD2C9305A40027B40B /* MynutrientPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MynutrientPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MynutrientPTApp.swift; sourceTree = "<group>"; };
 		CEB765B22C9305A40027B40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +44,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BD816832C9BB787000B2D2B /* Ex */ = {
+			isa = PBXGroup;
+			children = (
+				4BD816782C9BB3EF000B2D2B /* CalendarView_ex.swift */,
+				4BD8167A2C9BB42B000B2D2B /* MonthCalendarView.swift */,
+				4BD8167C2C9BB450000B2D2B /* NutritionGraphView.swift */,
+				4BD8167E2C9BB466000B2D2B /* NotificationsView.swift */,
+			);
+			path = Ex;
+			sourceTree = "<group>";
+		};
 		CEB765A42C9305A40027B40B = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +78,7 @@
 				CEB765B22C9305A40027B40B /* ContentView.swift */,
 				4B03D2312C9312AE009B5721 /* CalendarView.swift */,
 				4B03D2332C932B3B009B5721 /* MealData.swift */,
+				4BD816832C9BB787000B2D2B /* Ex */,
 				CEB765B42C9305A50027B40B /* Assets.xcassets */,
 				CEB765B62C9305A50027B40B /* Preview Content */,
 			);
@@ -143,10 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD8167D2C9BB450000B2D2B /* NutritionGraphView.swift in Sources */,
 				CEB765B32C9305A40027B40B /* ContentView.swift in Sources */,
+				4BD8167B2C9BB42B000B2D2B /* MonthCalendarView.swift in Sources */,
+				4BD816792C9BB3EF000B2D2B /* CalendarView_ex.swift in Sources */,
 				CEB765B12C9305A40027B40B /* MynutrientPTApp.swift in Sources */,
 				4B03D2342C932B3B009B5721 /* MealData.swift in Sources */,
 				4B03D2322C9312AE009B5721 /* CalendarView.swift in Sources */,
+				4BD8167F2C9BB466000B2D2B /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

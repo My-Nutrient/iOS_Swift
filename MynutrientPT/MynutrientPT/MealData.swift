@@ -7,6 +7,7 @@
 
 import Foundation
 
+// 식단 정보
 struct MealData: Identifiable {
     let id = UUID()
     let date: Date
