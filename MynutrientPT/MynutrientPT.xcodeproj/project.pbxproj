@@ -16,6 +16,12 @@
 		CEDA98FF2C9C48240087A4A8 /* extension+date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA98F92C9C48240087A4A8 /* extension+date.swift */; };
 		CEDA99002C9C48240087A4A8 /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA98FA2C9C48240087A4A8 /* food.swift */; };
 		CEDA99012C9C48240087A4A8 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA98FB2C9C48240087A4A8 /* FoodDetailView.swift */; };
+		CEDA99082C9C499E0087A4A8 /* FoodNutrientStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99062C9C499E0087A4A8 /* FoodNutrientStore.swift */; };
+		CEDA990B2C9C49A60087A4A8 /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99092C9C49A60087A4A8 /* FoodDetail.swift */; };
+		CEDA99112C9C49CF0087A4A8 /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA990F2C9C49CF0087A4A8 /* protocol.swift */; };
+		CEDA99132C9C49DF0087A4A8 /* MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99122C9C49DF0087A4A8 /* MyPage.swift */; };
+		CEDA99152C9C49EC0087A4A8 /* MyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99142C9C49EC0087A4A8 /* MyCardView.swift */; };
+		CEDA99172C9C49F10087A4A8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99162C9C49F10087A4A8 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,12 @@
 		CEDA98F92C9C48240087A4A8 /* extension+date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "extension+date.swift"; sourceTree = "<group>"; };
 		CEDA98FA2C9C48240087A4A8 /* food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
 		CEDA98FB2C9C48240087A4A8 /* FoodDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
+		CEDA99062C9C499E0087A4A8 /* FoodNutrientStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodNutrientStore.swift; sourceTree = "<group>"; };
+		CEDA99092C9C49A60087A4A8 /* FoodDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDetail.swift; sourceTree = "<group>"; };
+		CEDA990F2C9C49CF0087A4A8 /* protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
+		CEDA99122C9C49DF0087A4A8 /* MyPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPage.swift; sourceTree = "<group>"; };
+		CEDA99142C9C49EC0087A4A8 /* MyCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardView.swift; sourceTree = "<group>"; };
+		CEDA99162C9C49F10087A4A8 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +75,13 @@
 			children = (
 				CEDA98FC2C9C48240087A4A8 /* Cart */,
 				CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */,
+				CEDA99122C9C49DF0087A4A8 /* MyPage.swift */,
+				CEDA99142C9C49EC0087A4A8 /* MyCardView.swift */,
+				CEDA99162C9C49F10087A4A8 /* HomeView.swift */,
 				CEB765B22C9305A40027B40B /* ContentView.swift */,
+				CEDA99072C9C499E0087A4A8 /* Stores */,
+				CEDA990A2C9C49A60087A4A8 /* Models */,
+				CEDA99102C9C49CF0087A4A8 /* FlipCardProtocol */,
 				CEB765B42C9305A50027B40B /* Assets.xcassets */,
 				CEB765B62C9305A50027B40B /* Preview Content */,
 			);
@@ -88,6 +106,30 @@
 				CEDA98FB2C9C48240087A4A8 /* FoodDetailView.swift */,
 			);
 			path = Cart;
+			sourceTree = "<group>";
+		};
+		CEDA99072C9C499E0087A4A8 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA99062C9C499E0087A4A8 /* FoodNutrientStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		CEDA990A2C9C49A60087A4A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA99092C9C49A60087A4A8 /* FoodDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEDA99102C9C49CF0087A4A8 /* FlipCardProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA990F2C9C49CF0087A4A8 /* protocol.swift */,
+			);
+			path = FlipCardProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,13 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDA99082C9C499E0087A4A8 /* FoodNutrientStore.swift in Sources */,
+				CEDA99132C9C49DF0087A4A8 /* MyPage.swift in Sources */,
+				CEDA99172C9C49F10087A4A8 /* HomeView.swift in Sources */,
 				CEDA98FD2C9C48240087A4A8 /* cart.swift in Sources */,
 				CEB765B32C9305A40027B40B /* ContentView.swift in Sources */,
 				CEDA98FE2C9C48240087A4A8 /* CartView.swift in Sources */,
 				CEDA98FF2C9C48240087A4A8 /* extension+date.swift in Sources */,
+				CEDA99152C9C49EC0087A4A8 /* MyCardView.swift in Sources */,
 				CEDA99012C9C48240087A4A8 /* FoodDetailView.swift in Sources */,
 				CEB765B12C9305A40027B40B /* MynutrientPTApp.swift in Sources */,
 				CEDA99002C9C48240087A4A8 /* food.swift in Sources */,
+				CEDA990B2C9C49A60087A4A8 /* FoodDetail.swift in Sources */,
+				CEDA99112C9C49CF0087A4A8 /* protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
