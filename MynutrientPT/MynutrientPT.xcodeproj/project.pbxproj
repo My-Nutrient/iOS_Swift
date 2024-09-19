@@ -11,6 +11,11 @@
 		CEB765B32C9305A40027B40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB765B22C9305A40027B40B /* ContentView.swift */; };
 		CEB765B52C9305A50027B40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB765B42C9305A50027B40B /* Assets.xcassets */; };
 		CEB765B82C9305A50027B40B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB765B72C9305A50027B40B /* Preview Assets.xcassets */; };
+		CEDA98FD2C9C48240087A4A8 /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA98F72C9C48240087A4A8 /* cart.swift */; };
+		CEDA98FE2C9C48240087A4A8 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA98F82C9C48240087A4A8 /* CartView.swift */; };
+		CEDA98FF2C9C48240087A4A8 /* extension+date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA98F92C9C48240087A4A8 /* extension+date.swift */; };
+		CEDA99002C9C48240087A4A8 /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA98FA2C9C48240087A4A8 /* food.swift */; };
+		CEDA99012C9C48240087A4A8 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA98FB2C9C48240087A4A8 /* FoodDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		CEB765B22C9305A40027B40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEB765B42C9305A50027B40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB765B72C9305A50027B40B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDA98F72C9C48240087A4A8 /* cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
+		CEDA98F82C9C48240087A4A8 /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		CEDA98F92C9C48240087A4A8 /* extension+date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "extension+date.swift"; sourceTree = "<group>"; };
+		CEDA98FA2C9C48240087A4A8 /* food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
+		CEDA98FB2C9C48240087A4A8 /* FoodDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		CEB765AF2C9305A40027B40B /* MynutrientPT */ = {
 			isa = PBXGroup;
 			children = (
+				CEDA98FC2C9C48240087A4A8 /* Cart */,
 				CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */,
 				CEB765B22C9305A40027B40B /* ContentView.swift */,
 				CEB765B42C9305A50027B40B /* Assets.xcassets */,
@@ -65,6 +76,18 @@
 				CEB765B72C9305A50027B40B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDA98FC2C9C48240087A4A8 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA98F72C9C48240087A4A8 /* cart.swift */,
+				CEDA98F82C9C48240087A4A8 /* CartView.swift */,
+				CEDA98F92C9C48240087A4A8 /* extension+date.swift */,
+				CEDA98FA2C9C48240087A4A8 /* food.swift */,
+				CEDA98FB2C9C48240087A4A8 /* FoodDetailView.swift */,
+			);
+			path = Cart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDA98FD2C9C48240087A4A8 /* cart.swift in Sources */,
 				CEB765B32C9305A40027B40B /* ContentView.swift in Sources */,
+				CEDA98FE2C9C48240087A4A8 /* CartView.swift in Sources */,
+				CEDA98FF2C9C48240087A4A8 /* extension+date.swift in Sources */,
+				CEDA99012C9C48240087A4A8 /* FoodDetailView.swift in Sources */,
 				CEB765B12C9305A40027B40B /* MynutrientPTApp.swift in Sources */,
+				CEDA99002C9C48240087A4A8 /* food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
