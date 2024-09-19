@@ -2,19 +2,22 @@
 //  ContentView.swift
 //  MynutrientPT
 //
-//  Created by 박준영 on 9/12/24.
-//
+//  Created by 박준영 on 9/12/24. jisoo
 
 import SwiftUI
 
 struct ContentView: View {
+    //@StateObject var presenter = NVFlipCardPresenter()
+    
     var body: some View {
         TabView {
-            Text("home")
+            HomeView()
                 .tabItem {
                     Image(systemName: "1.circle")
                     Text("1")
                 }
+            
+//            MyCardView(presenter: presenter)
             Text("2")
                 .tabItem {
                     Image(systemName: "2.circle")
