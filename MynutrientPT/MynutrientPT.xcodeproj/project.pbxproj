@@ -22,6 +22,14 @@
 		CEDA99132C9C49DF0087A4A8 /* MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99122C9C49DF0087A4A8 /* MyPage.swift */; };
 		CEDA99152C9C49EC0087A4A8 /* MyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99142C9C49EC0087A4A8 /* MyCardView.swift */; };
 		CEDA99172C9C49F10087A4A8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99162C9C49F10087A4A8 /* HomeView.swift */; };
+		CEDA99192C9C4C450087A4A8 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99182C9C4C450087A4A8 /* CalendarView.swift */; };
+		CEDA991B2C9C4C480087A4A8 /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA991A2C9C4C480087A4A8 /* MealData.swift */; };
+		CEDA99212C9C4C950087A4A8 /* CalendarView_ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA991C2C9C4C950087A4A8 /* CalendarView_ex.swift */; };
+		CEDA99222C9C4C950087A4A8 /* MonthCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA991D2C9C4C950087A4A8 /* MonthCalendarView.swift */; };
+		CEDA99232C9C4C950087A4A8 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA991E2C9C4C950087A4A8 /* NotificationsView.swift */; };
+		CEDA99242C9C4C950087A4A8 /* NutritionGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA991F2C9C4C950087A4A8 /* NutritionGraphView.swift */; };
+		CEDA99262C9C4D200087A4A8 /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99252C9C4D200087A4A8 /* MyPageView.swift */; };
+		CEDA99282C9C4D5A0087A4A8 /* DailyCalorieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA99272C9C4D5A0087A4A8 /* DailyCalorieData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +49,14 @@
 		CEDA99122C9C49DF0087A4A8 /* MyPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPage.swift; sourceTree = "<group>"; };
 		CEDA99142C9C49EC0087A4A8 /* MyCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardView.swift; sourceTree = "<group>"; };
 		CEDA99162C9C49F10087A4A8 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CEDA99182C9C4C450087A4A8 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CEDA991A2C9C4C480087A4A8 /* MealData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+		CEDA991C2C9C4C950087A4A8 /* CalendarView_ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView_ex.swift; sourceTree = "<group>"; };
+		CEDA991D2C9C4C950087A4A8 /* MonthCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthCalendarView.swift; sourceTree = "<group>"; };
+		CEDA991E2C9C4C950087A4A8 /* NotificationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		CEDA991F2C9C4C950087A4A8 /* NutritionGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionGraphView.swift; sourceTree = "<group>"; };
+		CEDA99252C9C4D200087A4A8 /* MyPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		CEDA99272C9C4D5A0087A4A8 /* DailyCalorieData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyCalorieData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,14 +89,19 @@
 		CEB765AF2C9305A40027B40B /* MynutrientPT */ = {
 			isa = PBXGroup;
 			children = (
-				CEDA98FC2C9C48240087A4A8 /* Cart */,
+				CEB765B22C9305A40027B40B /* ContentView.swift */,
 				CEB765B02C9305A40027B40B /* MynutrientPTApp.swift */,
 				CEDA99122C9C49DF0087A4A8 /* MyPage.swift */,
 				CEDA99142C9C49EC0087A4A8 /* MyCardView.swift */,
 				CEDA99162C9C49F10087A4A8 /* HomeView.swift */,
-				CEB765B22C9305A40027B40B /* ContentView.swift */,
+				CEDA99182C9C4C450087A4A8 /* CalendarView.swift */,
+				CEDA991A2C9C4C480087A4A8 /* MealData.swift */,
+				CEDA99252C9C4D200087A4A8 /* MyPageView.swift */,
+				CEDA99272C9C4D5A0087A4A8 /* DailyCalorieData.swift */,
+				CEDA98FC2C9C48240087A4A8 /* Cart */,
 				CEDA99072C9C499E0087A4A8 /* Stores */,
 				CEDA990A2C9C49A60087A4A8 /* Models */,
+				CEDA99202C9C4C950087A4A8 /* Ex */,
 				CEDA99102C9C49CF0087A4A8 /* FlipCardProtocol */,
 				CEB765B42C9305A50027B40B /* Assets.xcassets */,
 				CEB765B62C9305A50027B40B /* Preview Content */,
@@ -130,6 +151,17 @@
 				CEDA990F2C9C49CF0087A4A8 /* protocol.swift */,
 			);
 			path = FlipCardProtocol;
+			sourceTree = "<group>";
+		};
+		CEDA99202C9C4C950087A4A8 /* Ex */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA991C2C9C4C950087A4A8 /* CalendarView_ex.swift */,
+				CEDA991D2C9C4C950087A4A8 /* MonthCalendarView.swift */,
+				CEDA991E2C9C4C950087A4A8 /* NotificationsView.swift */,
+				CEDA991F2C9C4C950087A4A8 /* NutritionGraphView.swift */,
+			);
+			path = Ex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDA99082C9C499E0087A4A8 /* FoodNutrientStore.swift in Sources */,
+				CEDA99212C9C4C950087A4A8 /* CalendarView_ex.swift in Sources */,
+				CEDA99282C9C4D5A0087A4A8 /* DailyCalorieData.swift in Sources */,
 				CEDA99132C9C49DF0087A4A8 /* MyPage.swift in Sources */,
 				CEDA99172C9C49F10087A4A8 /* HomeView.swift in Sources */,
 				CEDA98FD2C9C48240087A4A8 /* cart.swift in Sources */,
@@ -210,11 +244,17 @@
 				CEDA98FE2C9C48240087A4A8 /* CartView.swift in Sources */,
 				CEDA98FF2C9C48240087A4A8 /* extension+date.swift in Sources */,
 				CEDA99152C9C49EC0087A4A8 /* MyCardView.swift in Sources */,
+				CEDA99242C9C4C950087A4A8 /* NutritionGraphView.swift in Sources */,
+				CEDA99222C9C4C950087A4A8 /* MonthCalendarView.swift in Sources */,
+				CEDA99192C9C4C450087A4A8 /* CalendarView.swift in Sources */,
 				CEDA99012C9C48240087A4A8 /* FoodDetailView.swift in Sources */,
 				CEB765B12C9305A40027B40B /* MynutrientPTApp.swift in Sources */,
+				CEDA991B2C9C4C480087A4A8 /* MealData.swift in Sources */,
 				CEDA99002C9C48240087A4A8 /* food.swift in Sources */,
 				CEDA990B2C9C49A60087A4A8 /* FoodDetail.swift in Sources */,
+				CEDA99262C9C4D200087A4A8 /* MyPageView.swift in Sources */,
 				CEDA99112C9C49CF0087A4A8 /* protocol.swift in Sources */,
+				CEDA99232C9C4C950087A4A8 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

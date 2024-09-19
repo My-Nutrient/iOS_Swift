@@ -20,13 +20,18 @@ struct ContentView: View {
                     Image(systemName: "2.circle")
                     Text("2")
                 }
-            Text("3")
+            CalendarView()
                 .tabItem {
                     Image(systemName: "3.circle")
                     Text("3")
                 }
+            MyPageView()
+                .tabItem {
+                    Image(systemName: "4.circle")
+                    Text("4")
+                }
         }
-        .font(.largeTitle)
+        //.font(.largeTitle)
     }
 }
 
